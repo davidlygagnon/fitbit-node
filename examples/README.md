@@ -1,7 +1,5 @@
-# fitbit-node Example
-This is an example of using the fitbit-node client library.
+# Fitbit-Node example
+A node.js app built with Express 4.0 showcasing how to use the Fitbit-Node client library.
 
-# How to use it
-This project contains a node.js app built with Express 4.0
-
+This is still a work in progress.
 
