@@ -47,6 +47,10 @@ fitBitClient = (function () {
 
 		getTokenSecret: function () {
 			return session.accessTokenSecret;
+		},
+
+		getAuthorizeURL: function(oAuthToken) {
+			return 'http://www.fitbit.com/oauth/authorize?oauth_token=' + oAuthToken;
 		}
 	}
 })();
